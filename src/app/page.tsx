@@ -3,6 +3,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import MusicSchoolTestimonials from "@/components/TestimonialCard";
 import UpComingWebinars from "@/components/UpComingWebinars";
 import Instructors from "@/components/Instructors";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <MusicSchoolTestimonials/>
         <UpComingWebinars/>
         <Instructors/>
+        <Footer/>
       </div>
     </main>
   );
